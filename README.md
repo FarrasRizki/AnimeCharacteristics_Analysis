@@ -24,4 +24,7 @@ Tujuan dari pemodelan adalah ingin membuat model yang mampu memprediksi rating s
 
 Model Machine Learning yang akan diuji antara lain:
 1. Linier Regression
-2. Random Forest Classification
+  - Normal Regression
+  - Ridge
+  - LASSO
+2. Random Forest Regression
