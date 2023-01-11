@@ -1,28 +1,17 @@
-# Anime Rating Prediction
+# Anime Characteristics Analysis
 Project by Muhammad Farras Rizki
 
-## A. Latar Belakang
-Anime adalah animasi asal Jepang yang digambar dengan tangan maupun menggunakan teknologi komputer. Judul anime pertama di dunia adalah Katsudo Shashin. Anime ini diperkirakan muncul di Jepang pada tahun 1907. Anime pertama yang mencapai kepopuleran yang luas adalah Astro Boy karya Ozamu Tezuka pada 1963. Sejak saat itu anime mulai berkembang dan banyak dikenal oleh masyarakat luas.
+## A. Business Understanding
+The higher the anime population today, that making competition in the anime industry even more intense. Therefore, I will assist the Studio in providing references to anime that will be made based on the interests of the audience.
 
 
-## B. Tentang Dataset
-Dataset berisi 14578 baris dan 18 kolom. Baris dalam dataset ini merepresentasikan informasi dari suatu anime beserta ratingnya. Informasi tersebut meliputi media penayangan, jumlah episode, genre, tahun produksi, jumlah penonton hingga rating. Rating yang digunakan memiliki range nilai dari 0 hingga 5.
+## B. Objective :
+1. Provide anime characteristics that are liked and disliked by the audience
+2. Provide insight to studios on what factors contribute to an anime's rating.
+3. Predicting the rating of an anime using a regression model
 
-
-## C. Tujuan Project :
-Memprediksi rating suatu anime menggunakan model regresi
-Memberikan insight pada orang yang akan memproduksi anime, mengenai faktor apa saja yang berkontribusi pada rating suatu anime
-
-
-## D. Sumber Dataframe
-Source : https://www.kaggle.com/datasets/alancmathew/anime-dataset
-Informasi yang ada pada dataset ini diambil dari https://www.anime-planet.com/ pada tanggal 15 Juni 2020
-
-
-## E. Deskripsi Pemodelan
-Tujuan dari pemodelan adalah ingin membuat model yang mampu memprediksi rating suatu anime. Model yang akan digunakan adalah jenis Regression. Target Variabel yang akan digunakan adalah kolom `rating`.
-
-Model Machine Learning yang akan diuji antara lain:
+## C. Modeling
+Machine Learning models that will be tested include:
 1. Linier Regression
   - Normal Regression
   - Ridge
